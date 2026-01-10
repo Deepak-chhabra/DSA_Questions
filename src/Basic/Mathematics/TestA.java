@@ -1,0 +1,164 @@
+package Basic.Mathematics;
+
+   /*
+Count all digits of a number
+Count number of odd digits in a number
+Reverse a number
+Palindrome number
+Return the largest digit in a number
+Factorial of a given number
+Check if the number if armstrong
+Check for perfect number
+Check for prime number
+    */
+class Number{
+    private int number ;
+
+    // Default constructor and Parameterized Constructor
+    Number(){
+        this(2);
+    }
+
+    Number(int number){
+        this.number = number ;
+    }
+
+    public int countDigit(){
+        int count = 0 ;
+        if(number == 0){
+            throw new IllegalArgumentException("number should be more than zero");
+        }
+        int temp = number ;
+        while(temp > 0 ){
+            count++;
+            temp /= 10 ;
+        }
+        return count ;
+    }
+
+    public int  oddDigit(){
+
+        int temp = number ;
+
+        if(number == 0 ){
+            throw new IllegalArgumentException("Number should be more than zero");
+
+        }
+        int count = 0;
+        while(temp > 0 ) {
+
+            int digit = temp % 10;
+            if (digit % 2 != 0) {
+                count++;
+            }
+            temp /= 10 ;
+        }
+        return count;
+    }
+
+    public int reverse(){
+        int temp = number ;
+
+        if(number  == 0 ){
+            throw new IllegalArgumentException("Number should not be zero ");
+        }
+
+        int reverseNum = 0 ;
+        while(temp > 0 ){
+            int lastDigit = temp %10 ;
+            reverseNum = reverseNum *10 + lastDigit ;
+            temp /= 10 ;
+        }
+
+        return reverseNum ;
+    }
+    public boolean isPalindrome(){
+        return number == reverse() ;
+    }
+
+    public int largestDigit(){
+        int temp = number ;
+        if(number == 0 ) return 0 ;
+
+        int maxDigit =  0 ;
+
+        while( temp > 0 ){
+
+            maxDigit = Math.max(maxDigit , temp%10 );
+            temp /= 10 ;
+        }
+        return maxDigit ;
+    }
+    public int factorialNumber(int number){
+
+        if(number == 0 || number == 1 ) return 1 ;
+        return number *factorialNumber(number -1 );
+    }
+
+    public boolean armstrongNumber(){
+
+        int temp = number ;
+        int armstrongNum = 0 ;
+        int numberOfDigit = countDigit();
+        while(temp > 0 ){
+            int lastDigit = temp %10 ;
+            armstrongNum += (int)Math.pow(lastDigit, numberOfDigit);
+            temp /= 10 ;
+        }
+        return armstrongNum == number ;
+    }
+
+    public boolean isPrefect(){
+        /*
+        A perfect number is a positive integer that equals the sum of its proper positive divisors
+         (all divisors excluding the number itself), such as 6 (1+2+3=6) and 28 (1+2+4+7+14=28)
+        */
+
+        if(number == 0 || number == 1 ) return false ;
+        int temp = number ;
+        int divisors = 0 ;
+        for(int i = 1 ; i*i < number ; i++){
+            if(number%i == 0 ){
+                divisors += i ;
+                if(i  != divisors/i){
+                    divisors += divisors/i;
+                }
+            }
+        }
+        return divisors == number ;
+    }
+
+    public boolean isPrime(){
+        if(number < 2 ) return false ;
+        if(number == 2 || number == 3 ) return true ;
+        if(number % 2 == 0 || number % 3 == 0 ) return false ;
+
+        for(int i = 5 ; i*i < number ; i++){
+            if(number % i == 0 || number % (i+2) == 0 ) return false ;
+        }
+        return true ;
+    }
+
+    public String toString(){
+        return String.format("Number of digit in the %d :: %d \n" +
+                             "Number of odd digit in the number :: %d\n" +
+                             "Reverse of the Number :: %d\n" +
+                             "isPalindrome :: %b\n" +
+                             "Largest Digit in the number :: %d\n" +
+                             "factorial of the Number :: %d\n" +
+                             "is the number Armstrong :: %b\n" +
+                             "is the number prefect :: %b\n" +
+                             "is Number prime :: %b\n " , number , countDigit(), oddDigit(), reverse(), isPalindrome(), largestDigit(), factorialNumber(number) , armstrongNumber(), isPrefect(), isPrime());
+    }
+   }
+
+public class TestA {
+
+    public static void main(String[] args) {
+        System.out.println("Main");
+        Number num = new Number(5);
+        System.out.println(num);
+
+
+    }
+}
