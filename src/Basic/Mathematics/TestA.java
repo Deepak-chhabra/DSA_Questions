@@ -16,11 +16,15 @@ class Number{
 
     // Default constructor and Parameterized Constructor
     Number(){
-        this(2);
+        this(0);
     }
 
     Number(int number){
         this.number = number ;
+    }
+
+    public int getNumber(){
+        return number ;
     }
 
     public int countDigit(){
@@ -36,7 +40,7 @@ class Number{
         return count ;
     }
 
-    public int  oddDigit(){
+    public int  countOddDigit(){
 
         int temp = number ;
 
@@ -89,7 +93,7 @@ class Number{
         }
         return maxDigit ;
     }
-    public int factorialNumber(int number){
+    public int factorialNumber(int number ){
 
         if(number == 0 || number == 1 ) return 1 ;
         return number *factorialNumber(number -1 );
@@ -108,7 +112,7 @@ class Number{
         return armstrongNum == number ;
     }
 
-    public boolean isPrefect(){
+    public boolean isPerfect(){
         /*
         A perfect number is a positive integer that equals the sum of its proper positive divisors
          (all divisors excluding the number itself), such as 6 (1+2+3=6) and 28 (1+2+4+7+14=28)
@@ -120,7 +124,7 @@ class Number{
         for(int i = 1 ; i*i < number ; i++){
             if(number%i == 0 ){
                 divisors += i ;
-                if(i  != divisors/i){
+                if(i  != number/i){
                     divisors += divisors/i;
                 }
             }
@@ -140,7 +144,8 @@ class Number{
     }
 
     public String toString(){
-        return String.format("Number of digit in the %d :: %d \n" +
+        return String.format("Number is :: %d\n " +
+                             "Number of digit in the %d :: %d \n" +
                              "Number of odd digit in the number :: %d\n" +
                              "Reverse of the Number :: %d\n" +
                              "isPalindrome :: %b\n" +
@@ -148,7 +153,11 @@ class Number{
                              "factorial of the Number :: %d\n" +
                              "is the number Armstrong :: %b\n" +
                              "is the number prefect :: %b\n" +
-                             "is Number prime :: %b\n " , number , countDigit(), oddDigit(), reverse(), isPalindrome(), largestDigit(), factorialNumber(number) , armstrongNumber(), isPrefect(), isPrime());
+                             "is Number prime :: %b\n " ,
+                              getNumber(), number , countDigit(),
+                              countOddDigit(), reverse(), isPalindrome(),
+                              largestDigit(), factorialNumber(number) ,
+                              armstrongNumber(), isPerfect(), isPrime());
     }
    }
 
