@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="839013d1-8528-4c2e-814f-6a939bc099af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basic/Mathematics/TestA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic/Mathematics/TestB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basic/Mathematics/TestA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/Mathematics/TestA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +28,9 @@
   "associatedIndex": 7
 }]]></component>
   <component name="ProjectId" id="383XhZpM4brMrmjDV43xkmkMFuh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,12 +39,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestA (3)">
-    <configuration name="TestA (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestA" />
+  <component name="RunManager" selected="Application.TestB (5)">
+    <configuration name="TestB (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestB" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -59,8 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestA (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestA" />
+    <configuration name="TestB (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestB" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestA (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestA" />
+    <configuration name="TestB (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestB" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestA (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestA" />
+    <configuration name="TestB (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestB" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestA" />
+    <configuration name="TestB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestB" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestA (3)" />
-        <item itemvalue="Application.TestA" />
-        <item itemvalue="Application.TestA (1)" />
-        <item itemvalue="Application.TestA (2)" />
-        <item itemvalue="Application.TestA (5)" />
+        <item itemvalue="Application.TestB (5)" />
+        <item itemvalue="Application.TestB (4)" />
+        <item itemvalue="Application.TestB (3)" />
+        <item itemvalue="Application.TestB (2)" />
+        <item itemvalue="Application.TestB" />
       </list>
     </recent_temporary>
   </component>

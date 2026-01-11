@@ -12,7 +12,7 @@ Check for perfect number
 Check for prime number
     */
 class Number{
-    private int number ;
+    private final int number ; // when no setter means final
 
     // Default constructor and Parameterized Constructor
     Number(){
@@ -20,6 +20,9 @@ class Number{
     }
 
     Number(int number){
+        if(number < 0 ){
+            throw new IllegalArgumentException("Number should be more than or equal to zero");
+        }
         this.number = number ;
     }
 
@@ -30,7 +33,7 @@ class Number{
     public int countDigit(){
         int count = 0 ;
         if(number == 0){
-            throw new IllegalArgumentException("number should be more than zero");
+           return 1 ;
         }
         int temp = number ;
         while(temp > 0 ){
@@ -45,12 +48,10 @@ class Number{
         int temp = number ;
 
         if(number == 0 ){
-            throw new IllegalArgumentException("Number should be more than zero");
-
+           return 1 ;
         }
         int count = 0;
         while(temp > 0 ) {
-
             int digit = temp % 10;
             if (digit % 2 != 0) {
                 count++;
@@ -64,12 +65,16 @@ class Number{
         int temp = number ;
 
         if(number  == 0 ){
-            throw new IllegalArgumentException("Number should not be zero ");
+            return  0 ;
         }
 
         int reverseNum = 0 ;
         while(temp > 0 ){
             int lastDigit = temp %10 ;
+
+            if(reverseNum > (Integer.MAX_VALUE - lastDigit)/10 ){
+                throw new ArithmeticException("overflow error");
+            }
             reverseNum = reverseNum *10 + lastDigit ;
             temp /= 10 ;
         }
@@ -77,7 +82,12 @@ class Number{
         return reverseNum ;
     }
     public boolean isPalindrome(){
-        return number == reverse() ;
+
+        try {
+            return number == reverse();
+        }catch(ArithmeticException e){
+             return false ;
+        }
     }
 
     public int largestDigit(){
@@ -96,6 +106,9 @@ class Number{
     public int factorialNumber(int number ){
 
         if(number == 0 || number == 1 ) return 1 ;
+         if(number > 20){
+             throw new ArithmeticException(String.format("factorial of the number %d exceeds limit" , number));
+         }
         return number *factorialNumber(number -1 );
     }
 
@@ -165,7 +178,7 @@ public class TestA {
 
     public static void main(String[] args) {
         System.out.println("Main");
-        Number num = new Number(5);
+        Number num = new Number(-56);
         System.out.println(num);
 
 
