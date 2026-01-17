@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="839013d1-8528-4c2e-814f-6a939bc099af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Basic/Mathematics/TestB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basicString/TestStringA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic/Mathematics/TestA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/Mathematics/TestA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basic/Mathematics/TestB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/Mathematics/TestB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="383XhZpM4brMrmjDV43xkmkMFuh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,20 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.TestB (5)">
-    <configuration name="TestB (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestB" />
+}</component>
+  <component name="RunManager" selected="Application.TestStringA (4)">
+    <configuration name="TestStringA (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicString.TestStringA" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basic.Mathematics.*" />
+          <option name="PATTERN" value="basicString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestB (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestB" />
+    <configuration name="TestStringA (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicString.TestStringA" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basic.Mathematics.*" />
+          <option name="PATTERN" value="basicString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestB (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestB" />
+    <configuration name="TestStringA (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicString.TestStringA" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basic.Mathematics.*" />
+          <option name="PATTERN" value="basicString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestB (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestB" />
+    <configuration name="TestStringA (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicString.TestStringA" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basic.Mathematics.*" />
+          <option name="PATTERN" value="basicString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.Mathematics.TestB" />
+    <configuration name="TestStringA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicString.TestStringA" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basic.Mathematics.*" />
+          <option name="PATTERN" value="basicString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestB (5)" />
-        <item itemvalue="Application.TestB (4)" />
-        <item itemvalue="Application.TestB (3)" />
-        <item itemvalue="Application.TestB (2)" />
-        <item itemvalue="Application.TestB" />
+        <item itemvalue="Application.TestStringA (4)" />
+        <item itemvalue="Application.TestStringA (3)" />
+        <item itemvalue="Application.TestStringA (2)" />
+        <item itemvalue="Application.TestStringA (1)" />
+        <item itemvalue="Application.TestStringA" />
       </list>
     </recent_temporary>
   </component>
