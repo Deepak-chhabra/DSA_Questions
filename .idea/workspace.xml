@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="839013d1-8528-4c2e-814f-6a939bc099af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basicString/TestStringA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDlinkedList/testD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic/Mathematics/TestB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/Mathematics/TestB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +41,13 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestStringA (4)">
-    <configuration name="TestStringA (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicString.TestStringA" />
+  <component name="RunManager" selected="Application.testD (4)">
+    <configuration name="testD (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDlinkedList.testD" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicString.*" />
+          <option name="PATTERN" value="TestDlinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringA (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicString.TestStringA" />
+    <configuration name="testD (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDlinkedList.testD" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicString.*" />
+          <option name="PATTERN" value="TestDlinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringA (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicString.TestStringA" />
+    <configuration name="testD (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDlinkedList.testD" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicString.*" />
+          <option name="PATTERN" value="TestDlinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringA (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicString.TestStringA" />
+    <configuration name="testD (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDlinkedList.testD" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicString.*" />
+          <option name="PATTERN" value="TestDlinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicString.TestStringA" />
+    <configuration name="testD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDlinkedList.testD" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicString.*" />
+          <option name="PATTERN" value="TestDlinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestStringA (4)" />
-        <item itemvalue="Application.TestStringA (3)" />
-        <item itemvalue="Application.TestStringA (2)" />
-        <item itemvalue="Application.TestStringA (1)" />
-        <item itemvalue="Application.TestStringA" />
+        <item itemvalue="Application.testD (4)" />
+        <item itemvalue="Application.testD" />
+        <item itemvalue="Application.testD (3)" />
+        <item itemvalue="Application.testD (2)" />
+        <item itemvalue="Application.testD (1)" />
       </list>
     </recent_temporary>
   </component>
